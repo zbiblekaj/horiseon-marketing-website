@@ -4,10 +4,6 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +16,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 {
     color: #d9dcd6;
 }
 
@@ -41,6 +37,10 @@ body {
     margin-left: 25px;
 }
 
+body {
+    background-color: #d9dcd6;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -195,6 +195,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
