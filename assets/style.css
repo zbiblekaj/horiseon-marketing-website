@@ -85,7 +85,8 @@ in line block so that it does not take up the whole width of the page (leaving r
     margin-left: 20px;
 }
 
-/*   */
+/* Below I have formatted the blocks created under content above. I have added a background color of blue, a text color of white, a font style matching the header, a set height for each of the boxes, and margins around each of the boxes created so that there is a space
+in between each. */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -95,18 +96,19 @@ in line block so that it does not take up the whole width of the page (leaving r
     color: #ffffff;
 }
 
-/*   */
+/* Below I have formatted the headings for each of the bozes so that they are a larger font (making it clearer that it is a heading) and added margins so that there is a space between the heading and the text. */
 .online-reputation-management h2, .search-engine-optimization h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*   */
+/* Below I have formattted the images for the three headings mentioned above so that they all firstly fix within the boxes, leaving a space between each side of the box and the images. */
 .search-engine-optimization img, .social-media-marketing img, .online-reputation-management img {
     max-height: 200px;
 }
 
-/*   */
+/* Below I have formatted the box for the content highlighting the benefits of search engine optimisation to align the box on the right side of the webpage, specifying a height and width to align with the boxes to the left. I have added padding & margins so that there is space between this box with the others, 
+as well as the right side of the webpage. I have attributed a font family to match the theme of the webpage (all of the other text), and allocated a blue backround which is slightly lighter to the other boxes on the webpage. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -116,28 +118,30 @@ in line block so that it does not take up the whole width of the page (leaving r
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #2589bd;
-}
-
-/*   */
-.benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*   */
+/* Below I have specified the margins between each benefit so that they are clearly separated. */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+}
+
+/* Below I have specified the text alignment and margins between the headings of the benefits and the images below, so that there is a space between them and that the titles are centered. */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*   */
+/* Below I have specified the dimensions of the images underneath each of the headings of the benefits, adding a margin between these and the text below so that there is a space. I have centered them, and added
+a max width so that they don't overflow the designated borders. */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*   */
+/* Below I have specified the properties of the footer. These include a font family matching all of the other elements on the page, a center alignment of the text on the footer, as well as padding so that the text
+remains inside the designated borders. */
 .footer {
     padding: 30px;
     clear: both;
@@ -145,7 +149,7 @@ in line block so that it does not take up the whole width of the page (leaving r
     text-align: center;
 }
 
-/*   */
+/* Below I have specified the font size of the heading on the footer so that it is larger than the surrounding text, clarifying that it is a header. */
 .footer h4 {
     font-size: 20px;
 }
