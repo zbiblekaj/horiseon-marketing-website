@@ -1,56 +1,60 @@
+/* Below I have applied formatting to the whole page, specifying no paddings or margins so that the contents fill up the whole browser page. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
+/* Below I have applied formatting to the header of the page, applying a blue background colour with a font specified, and a text color of white. */
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     background-color: #2a607c;
-    color: #ffffff;
+    color: #d9dcd6;
+    ;
 }
 
+/* Below I have applied formatting to just the first heading of the page - Horiseon. I have placed it in the block of the header, allocated a larger font size as to make clear that this is the most prominent heading of the page */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
+/* Below I have applied formatting to the 3 sub headings in the header. The first aspect is to make them sit on the right side of the webpage, the second is to allocate 
+a smaller font size than the heading Horiseon. Next padding and margin elements were applied for the text to fit centered on the header with space to the right of the page. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
+/* Below I have applied formatting to the 3 subheadings so that thay are displayed side by side, instead of in a list one on top of the other. A margin was applied to create spacing between
+each of the headings. */
 .header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; 
 }
 
+/* I have applied a background color to the whole body of the webpage below. */
+body {
+    background-color: #d9dcd6;
+}
+
+/* I have applied formatting to the links on the webpage (header) so that they appear as text rather than links even when they are accessed. I also have removed the underline on the text as displayed by links. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* I have applied a font size to all of the content on the page wrapped in paragraph tags. */
 p {
     font-size: 16px;
 }
 
-.hero {
+/* Below I have applied a background image to fully cover a portion of the webpage, attached a URL to the image I wanted to display a professional setting and formatted the sizing in terms of length so that it doesn't cover 
+the whole webpage. */
+.background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,22 +63,50 @@ p {
     background-position: center;
 }
 
+/* Below I have applied formatting to the content 'search engine optimisation' &  'social media marketing' so that they sit left of the block that they are wrapped in, as well as leaving a margin inside the block so there is space
+between the text and the border. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Below I have applied formatting to the content 'online reputation management' so that it sits right of the block that it is wrapped in, as well as leaving a margin inside the block so there is space
+between the text and the border. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Below formatting was applied to all of the text wrapped in the class 'content', the main body essentially, to create blocks of content for each of the subheaedings. Each block has a specified margin and width below, and was formatted as 
+in line block so that it does not take up the whole width of the page (leaving room for blocks beside it). */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*   */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*   */
+.online-reputation-management h2, .search-engine-optimization h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*   */
+.search-engine-optimization img, .social-media-marketing img, .online-reputation-management img {
+    max-height: 200px;
+}
+
+/*   */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -82,119 +114,38 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*   */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*   */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*   */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*   */
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     text-align: center;
 }
 
-.footer h2 {
+/*   */
+.footer h4 {
     font-size: 20px;
 }
